@@ -49,7 +49,7 @@
 
                 <div class="form-group">
                     <div class="col-sm-9">
-                        <label	th:if="${#fields.hasErrors('third_name')}" th:errors="*{third_name}"
+                        <label	th:if="${#fields.hasErrors('third_name')}" th:errors="*{third_name} "
                                   class="validation-message"></label>
                         <input type="text" th:field="*{third_name}"
                                placeholder="Third Name" class="form-control" />
