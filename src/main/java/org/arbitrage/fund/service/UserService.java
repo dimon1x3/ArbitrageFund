@@ -7,6 +7,6 @@ import org.arbitrage.fund.model.User;
  */
 
 public interface UserService {
-    User findUserByEmail(String email);
+    User findByEmail(String email);
     void saveUser(User user);
 }
